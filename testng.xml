@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LMSProject" parallel="classes">
+ <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+    <test name="testngTest">
+        <classes>
+            <class name="testng_LMS.Activity_1" />
+            <class name="testng_LMS.Activity_2" />
+            <class name="testng_LMS.Activity_3" />
+            <class name="testng_LMS.Activity_4" />
+            <class name="testng_LMS.Activity_5" />
+            <class name="testng_LMS.Activity_6" />
+            <class name="testng_LMS.Activity_7" />
+            <class name="testng_LMS.Activity_8" />
+            <class name="testng_LMS.Activity_9" />
+            <class name="testng_LMS.Activity_10" />
+            <class name="testng_LMS.Activity_11" />
+            <class name="testng_LMS.Activity_12" />
+            <class name="testng_LMS.Activity_13" />
+            <class name="testng_LMS.Activity_14" />
+            
+        </classes>
+    </test>
+</suite>
